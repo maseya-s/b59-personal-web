@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(223, 215, 215);
+  margin: 0;
+}
+.container {
+  width: 550px;
+  height: max-content;
+  margin: 50px auto;
+  border: 1px solid transparent;
+  box-shadow: 8px 3px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px 100px;
+  text-align: justify;
+  background-color: white;
+}
+
+.container > p {
+  font-family: "georgia";
+}
+
+button {
+  background-color: #111727;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.soc {
+  font-size: 30px;
+}
+
+.card-img {
+  box-shadow: 8px 3px 10px 5px rgba(0, 0, 0, 0.09);
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card-img > h2 {
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium";
+  margin-bottom: 5px;
+}
+
+.card-img > h4 {
+  font-size: small;
+  font-family: "Franklin Gothic Medium";
+  padding-bottom: 10px;
+  margin-top: 0;
+}

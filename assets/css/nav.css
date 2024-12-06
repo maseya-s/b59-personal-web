@@ -1,0 +1,29 @@
+nav ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #111727;
+    height: 60px;
+    margin: 0;
+    gap: 30px;
+    padding: 0 40px;
+}
+
+nav li>a:hover{
+    color: rgb(227, 247, 247);
+}
+
+nav li:last-child{
+    margin-left: auto;
+}
+nav li>img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+nav li>a{
+    text-decoration: none;
+    color: white;
+}
